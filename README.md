@@ -81,3 +81,63 @@ Case Study : Titanic Dataset
 4. Selecting an appropriate machine learning algorithm (e.g., linear regression, decision tree) based on the problem and data characteristics.
 5. Using training data to adjust the model's parameters so that it can make classifications based on the input features.
 
+Day 11 : 
+
+Project :- "Box Office Revenue Prediction"
+
+1. Data Preparation:
+   Reading Data :
+   we load our dataset and import the necessary libraries for data analysis.
+
+   Data Cleaning :
+   we check for missing values and fill them or drop them.
+
+   Variable Selection :
+   we remove any unnecessary variables that wouldn't help in our prediction.
+
+   Label Encoding :
+   For any categorical variables (like movie genres), we converted them into       
+   numerical values that our models could understand.
+   
+Day 15 :
+
+2. Visualization :
+   Using Power BI, we created a dashboard to visualize the data. This helped us 
+   understand trends and patterns through different graphs and charts.
+   
+Day 19 :
+
+3. Model Building :
+   Our goal is to predict box office revenue(a continuous variable), so we used 
+   various regression techniques, such as:
+   
+   1. Linear Regression
+   2. K - Nearest Neighbors(KNN)
+   3. Decision Tree
+   4. Random Forest
+   5. Bagging
+   6. Boosting
+   7. Support Vector Regression(SVR)
+   8. Neural Networks
+   9. Voting
+   10. Stacking
+  
+      We trained our models using all these techniques and then applied Grid Search 
+   Cross-Validation (Grid Search CV) to fine-tune the parameters and improve 
+   performance.
+   
+Day 25 :
+
+4. Feature Selection :
+   We identified and selected the most important features using Random Forest method.
+   After selecting most importan features we apply all model building techniques on 
+   the data.
+   
+5. Result :
+   After comparing the Root Mean Squared Errors (RMSE) of all models, we found that 
+   the Linear Regression model had the lowest RMSE.
+   This means the Linear Regression model made the most accurate predictions, so we 
+   chose it as our best model for predicting box office revenue.
+
+Day 28 :
+   Presentation of the project.
